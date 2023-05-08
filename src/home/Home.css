@@ -1,0 +1,84 @@
+/* Background and font styles */
+body {
+  background-color: white;
+  color: navy;
+  font-family: Arial, sans-serif;
+}
+
+/* Card styles */
+.card {
+  width: 450px;
+  /* height: max-content; */
+  margin: 50px auto;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.568);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+/* Link styles */
+a {
+  color: navy;
+  text-decoration: none;
+  border-bottom: 2px solid navy;
+  font-size: 20px;
+}
+
+a:hover {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* List styles */
+.list-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid navy;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+}
+
+.list-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  background-color: navy;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.list-text {
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: top;
+}
